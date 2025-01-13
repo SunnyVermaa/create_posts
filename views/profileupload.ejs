@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/stylesheet/style.css">
+
+</head>
+<body class="bg-zinc-800">
+    <div class="w-full h-full bg-zinc-800 px-10 py-8 text-white">
+        <a class="text-white text 2xl bg-transparent py-2 px-3 border-2 border-blue-400 rounded-lg" href="/profile"> go to profile</a>
+                <h1 class="text 3xl bg-transparent mt-10 mb-3"> upload your profile pic</h1>
+
+         <form autocomplete="off" action="/upload" method="post" enctype="multipart/form-data">
+             <div class="p-3 gap-3 flex-wrap">
+                <input class="pl-3 pr--3 py-2 mt-3 bg-blue-500 inline- block rounded-lg " type="file" name="image">
+                <input class="px-5 py-2 mt-3 bg-blue-500 inline- block rounded-lg " type="submit" value="save edit">
+        </div>    
+        </form>
+    </div>
+</body>
+</html>

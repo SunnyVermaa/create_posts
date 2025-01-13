@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/stylesheet/style.css">
+</head>
+</head>
+<body class="w-full min-h-sceen bg-zinc-900"> 
+    <div>
+        <h3 class="text-white px-10 py-4">create your Account</h3>
+       <form class="p-10 flex flex-wrap gap-3 inline-block" action="/register" method="post">
+        <input class="px-2 py-1 bg-zinc-800 rounded-md border-2 outline-none text-white" type="text" placeholder="name" name="name">
+        <input class="px-2 py-1 bg-zinc-800 rounded-md border-2 outline-none text-white" type="text" placeholder="username" name="username">
+        <input class="px-2 py-1 bg-zinc-800 rounded-md border-2 outline-none text-white" type="text" placeholder="email" name="email">
+        <input class="px-2 py-1 bg-zinc-800 rounded-md border-2 outline-none text-white" type="password" placeholder="password" name="password">
+        <input class="px-2 py-1 bg-zinc-800 rounded-md border-2 outline-none text-white" type="number" placeholder="age" name="age">
+        <input class="px-3 py-1 bg-blue-800 rounded-md text-white" type="submit" value="create Account">
+        <a class="px-3 py-1 bg-blue-800 rounded-md text-white" href="/login"> login</a>
+       </form>
+    </div>
+</body>
+</html>
